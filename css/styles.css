@@ -1,0 +1,25 @@
+body {
+    background-color: darkseagreen;
+}
+.jumbotron {
+    width: 110%;
+    height: 7%auto;
+    /* margin-right: 1px;
+    margin-left: 1px; */
+    border-color: chocolate;
+    size: cover;
+    background-color: rgb(9, 24, 241);
+}
+#card {
+    background-color: blue;
+   width: 80px;
+   height: 700px;
+   margin-top: 0%;
+   margin-left: 1190px;
+   padding-right: 10px;
+}
+.logo {
+    margin-top: 1p%
+    margin-left: 10px
+
+}
