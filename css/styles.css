@@ -3,23 +3,43 @@ body {
 }
 .jumbotron {
     width: 110%;
-    height: 7%auto;
-    /* margin-right: 1px;
-    margin-left: 1px; */
-    border-color: chocolate;
+    height: 20px;
     size: cover;
-    background-color: rgb(9, 24, 241);
+    size: inherit;
+    background-color: rgb(174, 175, 190);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIhVxfrCyXZbLPphvJl9juBtjS5ZuICa05g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-color: white;
+    
 }
 #card {
     background-color: blue;
-   width: 80px;
-   height: 700px;
-   margin-top: 0%;
-   margin-left: 1190px;
-   padding-right: 10px;
+     width: 80px;
+    height: 700px;
+    margin-top: 0%;
+     margin-left: 1190px;
+     padding-right: 10px;
 }
 .logo {
-    margin-top: 1p%
-    margin-left: 10px
+    /* margin-top: 0px; */
+    margin-left: 10px;
+    opacity: 50%;
+    padding-top: 1px;
 
+}
+.navbar {
+    margin-left: 400px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+   
+    
+   
+}
+ul#navbar li {
+    display: inline;
+    text-align: right;
+     float: right;
+     padding: 5px;
+     margin-left: 30px;
 }
