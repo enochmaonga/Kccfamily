@@ -1,5 +1,7 @@
 body {
     background-color: darkseagreen;
+    padding: 24px;
+    padding-top: 60px;
 }
 .jumbotron {
     width: 110%;
@@ -66,12 +68,36 @@ li {
     text-align: right;
 }
 .caption {
-    /* display: inline-block;
-    vertical-align: top; */
+    display: inline-block;
+    vertical-align: top;
     text-align: center;
     color: white;
 
 }
-/* div.figure {
+/* .figure {
     vertical-align: top;
+    align-items: center;
 } */
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    margin-left: 5px;
+  }
+.menubar1 {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    
+}
+#btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
