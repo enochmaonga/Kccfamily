@@ -1,5 +1,5 @@
 body {
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
     padding-left: 40px;
    
 }
@@ -142,3 +142,7 @@ li {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: aliceblue;}
+
+.italic {
+    font-style: italic;
+}
