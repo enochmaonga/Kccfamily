@@ -1,14 +1,14 @@
 body {
     background-color: darkseagreen;
-    /* padding: 24px; */
+    padding-left: 40px;
    
 }
 .jumbotron {
-    width: 110%;
+    width: 1200px;
     height: 20px;
-    size: cover;
-    size: inherit;
-    background-color: rgb(174, 175, 190);
+    /* size: cover; */
+    /* size: inherit; */
+    background-color: rgb(112, 218, 236);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIhVxfrCyXZbLPphvJl9juBtjS5ZuICa05g&usqp=CAU);
     background-repeat: no-repeat;
     background-size: 200px;
@@ -16,20 +16,13 @@ body {
     padding: none;
     
 }
-#card {
-    background-color: blue;
-    width: 96px;
-    height: 600px;
-    margin-left: 1150px;
-    padding-right: 10px;
-    float:inherit;
-}
+
 .btn {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 70px;
     /* height: 10px; */
     background-color: antiquewhite;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     size: inherit;
  
@@ -42,9 +35,9 @@ body {
 
 }
 .navbar {
-    margin-left: 400px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 420px;
+    padding-left: 10px;
+    margin-bottom: 10px;
    
     
    
@@ -54,9 +47,9 @@ ul#navbar li {
     text-align: right;
     float: right;
     padding: 2px;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 h4 {
     text-align: center;
@@ -92,6 +85,7 @@ li {
     justify-content: center;
     
 }
+
 #btn {
     width: 90px;
     height: 30px;
@@ -103,36 +97,44 @@ li {
     align-items: center;
     justify-content: center;
 }
+
 .dropbtn {
     background-color: grey;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin-top: 30px;
-    width: 70px;
+    margin-top: 20px;
+    width: 50px;
     background-color: antiquewhite;
     padding: 10px;
     text-align: center;
     size: inherit;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
  
 }
 .dropdown {
-    position: relative;
+    position: flex;
     display: inline-block;
+    margin-left: 1050px;
+    padding-left: 10px;
+    margin-bottom: 180px;
+    margin: top 0px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 140px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 13px;
     text-decoration: none;
     display: block;
 }
