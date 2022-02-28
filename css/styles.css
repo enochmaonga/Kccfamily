@@ -65,7 +65,7 @@ li {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    color: white;
+    color: rgb(78, 4, 252);
 
 }
 /* .figure {
@@ -146,3 +146,6 @@ li {
 .italic {
     font-style: italic;
 }
+/* .row {
+    padding-left: 10px;
+} */
