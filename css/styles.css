@@ -1,6 +1,6 @@
 body {
     /* background-color: darkseagreen; */
-    padding-left: 40px;
+    /* padding-left: 40px; */
    
 }
 @media only screen and (max-width: 768px) {
@@ -10,23 +10,23 @@ body {
     }
   }
 .jumbotron {
-    width: 1200px;
-    height: 20px;
-    /* size: cover; */
-    /* size: inherit; */
-    background-color: rgb(112, 218, 236);
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIhVxfrCyXZbLPphvJl9juBtjS5ZuICa05g&usqp=CAU);
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
+    size: cover;
+    size: inherit;
+    background-color: rgb(109, 74, 238);
     background-size: 200px;
-    background-color: white;
     padding: none;
+    text-align: center;
+    color: white;
+    margin-top: -120px;
     
+ 
 }
 
 .btn {
     margin-top: 10px;
     width: 70px;
-    /* height: 10px; */
     background-color: antiquewhite;
     padding: 5px;
     text-align: center;
@@ -55,13 +55,13 @@ ul#navbar li {
     padding: 2px;
     margin-left: 5px;
     font-size: 13px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 h4 {
     text-align: center;
     margin-bottom: 5px;
-    padding-top: -20px;
-    color: blue;
+    padding-top: -10px;
+    color: white;
     font-size: xx-large;
 }
 li {
@@ -83,6 +83,7 @@ li {
     width: 32%;
     padding: 5px;
     margin-left: 5px;
+    padding-left: 20px;
   }
 .menubar1 {
     padding-top: 5px;
@@ -97,9 +98,8 @@ li {
     height: 30px;
     border-radius: 20px;
     text-align: center;
-    background-color: rgb(248, 194, 44);
-    color: white;
-    display: flex;
+    background-color: rgb(247, 245, 242);
+    display:inline-flex;
     align-items: center;
     justify-content: center;
 }
@@ -123,7 +123,7 @@ li {
 }
 .dropdown {
     position: flex;
-    display: inline-block;
+    display:inline-flex;
     margin-left: 1050px;
     padding-left: 10px;
     margin-bottom: 180px;
@@ -156,4 +156,55 @@ li {
     justify-content: center;
     display: flex;
     
+}
+
+.jumbotron1 {
+    background-color: rgb(6, 6, 100);
+} 
+#logo {
+    width: 120px;
+    height: 120px;
+   display: inline-block;
+   margin-left: 900px;
+   margin-bottom: 800px;
+}
+.h3 {
+    size: 100px;
+    justify-content: right;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.card{
+  
+    width: 840px;
+    height: 500px;
+    margin-top: 0px;
+    color: rgb(10, 10, 10);
+    float: left;
+    padding: 20px;
+   
+    
+}
+.card2 {
+    width: 400px;
+    height: 500px;
+    margin-right: 0%;
+    margin-top: 0px;
+    background-color: rgb(1, 19, 2);
+    color: white;
+    margin-left: 20px;
+    float: right;
+    font-size: small;
+    text-indent: 10px;
+    padding: 20px;
+   
+}
+img {
+    width: 120px;
+    height: 120px;
+    display:inline-flex;
+   color: white;
+   justify-content: left;
+   opacity: 150%;
 }
